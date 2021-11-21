@@ -8,3 +8,5 @@ Repozytorium do laboratoriów Techniki Mikroprocesorowej
 Kamienie milowe projektu:
 - [ ] stworzenie symulatora w HTML/JS
 - [ ] zaprojektowanie tymczasowego podłączenia matrycy przycisków do płytki
+- [ ] stworzenie oprogramowania dla pytki FRDM KL25Z
+- [ ] 
