@@ -6,5 +6,5 @@ Repozytorium do laboratoriów Techniki Mikroprocesorowej
 ## w oparciu o płytkę FRDM KL25Z
 
 Kamienie milowe projektu:
-[ ] stworzenie symulatora w HTML/JS
-[ ] zaprojektowanie tymczasowego podłączenia matrycy przycisków do płytki
+- [ ] stworzenie symulatora w HTML/JS
+- [ ] zaprojektowanie tymczasowego podłączenia matrycy przycisków do płytki
