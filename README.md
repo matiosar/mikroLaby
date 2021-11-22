@@ -6,6 +6,7 @@ Repozytorium do laboratoriów Techniki Mikroprocesorowej
 ## w oparciu o płytkę FRDM KL25Z
 
 ![image](jsSimPNG.png)
+![link](wp.pl)asddas
 
 Kamienie milowe projektu:
 - [ ] stworzenie symulatora w HTML/JS
