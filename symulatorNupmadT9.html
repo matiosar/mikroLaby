@@ -1,0 +1,112 @@
+<html>
+ <head>
+  <style>
+   table
+   {
+    background-color:red;
+   }
+   td
+   {
+    height:60px;
+	width:60px;
+   }
+   button
+   {
+    height:60px;
+	width:60px;
+   }
+  </style>
+ </head>
+ <body>
+  <span id="prompt">asdd</span>
+  <table>
+   <tr>
+    <td>
+	 <button type="submit" onclick="klaw('mod')" >NumLk</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('/')" >/</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('*')" >*</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('-')" >-</button>
+	</td>
+   </tr>
+   <tr>
+    <td>
+	 <button type="submit" onclick="klaw('1')" >1 <br/> Home<br/> &nbsp; </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('2')" >2 <br/> &#8593; <br/> ABC </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('3')" >3 <br/> PgUp <br/> DEF </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('+')" > <br/> + <br/> ([<{ </button>
+	</td>
+   </tr>
+   <tr>
+    <td>
+	 <button type="submit" onclick="klaw('4')" >4 <br/> &#8592; <br/>GHI</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('5')" >5 <br/> &#8595; <br/> JKL </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('6')" >6 <br/> &#8594; <br/> MNO </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('=')" > <br/> = <br/> ([<{ </button>
+	</td>
+   </tr>
+   <tr>
+    <td>
+	 <button type="submit" onclick="klaw('7')" >7 <br/> End <br/>PQRS</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('8')" >8 <br/> &nbsp; <br/> TUV </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('9')" >9 <br/> PgDn <br/> WXYZ </button>
+	</td>
+	<td rowspan="2" style="height:120px; background-color:green;">
+	 <button type="submit" style="height:120px;" onclick="klaw('space')" > <br/>Space<br/>&nbsp <br/>Enter</button>
+	</td>
+   </tr>
+   <tr>
+    <td>
+	 <button type="submit" onclick="klaw('BackSpc')" >BackSpc</button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw('0')" >0 <br/>&nbsp;<br/>&nbsp; </button>
+	</td>
+	<td>
+	 <button type="submit" onclick="klaw(',')" >, <br/> Del <br/> &nbsp; </button>
+	</td>
+	
+   </tr>
+  </table>
+  <script>
+  var ostatnia = "mlem";
+   function klaw(x){
+   
+   if (x!=ostatnia) document.getElementById("prompt").innerHTML+=x+" ";
+   ostatnia=x;
+   }
+  </script>
+  <p>
+  macierz przycisków: <br/>
+  var przyciski=[  <br/>
+  [["mode","",""] ,["/","",""],["*","",""],["-","",""]], <br/>
+  [["1","Home",""]	,["2","^","ABC"],["3","PgUp","DEF"],["","+","([{<"]], <br/>
+  [["4","leftArrow","GHI"],["5","downArrow","JKL"],["6","rightArrow","MNO"],["","=",")]>}"]],<br/>
+  [["7","End","PQRS"],["8","","TUV"],["9","PgDn","WXYZ"],["Space","Enter"]],<br/>
+  [["","BackSpc",""],[""],["*"]],<br/>
+  
+  ]
+  </p>
+ </body>
+</html>
